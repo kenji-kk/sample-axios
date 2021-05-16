@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const generateQiitaURL = (tag, maxIndex) => {
-  return `https://qiita.com/api/v2/${tag}/タグ/items?page=1&per_page=${maxIndex}`
+  return `https://qiita.com/api/v2/tags/${tag}/items?page=1&per_page=${maxIndex}`
 }
 
 const sortedArticle = (articles) => {
